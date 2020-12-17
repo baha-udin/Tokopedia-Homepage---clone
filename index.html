@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <div id="overlay"></div>
     <div class="header">
         <!--Section header 1-->
         <div class="item-header-1 d-flex justify-content-between align-items-center">
@@ -43,7 +44,8 @@
 
                 <!-- section pencarian -->
                 <div class="wrap-search">
-                    <input type="text" placeholder="apa yang kamu cari?" class="form-control">
+                    <!--modal pencarian: data-toggle, data-target dr bootstrap u/ munculin view ketika input pencarian di klik-->
+                    <input type="text" placeholder="cari barang" data-toggle="modal" data-target="#exampleModal" class="form-control">
                     <div class="wrap-icon-search">
                         <img class="img-search" src="assets/img/3.png" alt="search">
                     </div>
@@ -80,11 +82,82 @@
         </div>
     </div>
 
+    <!--Section dalem Kategori header, ketika di klik muncul ini-->
+    <div class="category">
+        <div class="head-category d-flex w-100">
+            <span>Belanja</span>
+            <span>Featured</span>
+            <span>Brand&nbsp;Unggulan</span>
+            <span>Halal&nbsp;Corner</span>
+            <span>Investasi&nbsp;Asurasi&nbsp;&&nbsp;Pinjaman</span>
+            <span>Pajak</span>
+            <span>Pendidikan</span>
+            <span>Tagihan</span>
+            <span>Top&nbsp;-&nbsp;up</span>
+            <span>Travel</span>
+            <span>OS&nbsp;Populer</span>
+            <span>Lainya</span>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <div class="head-left">
+                    <h6 class="mb-0">Buku</h6>
+                    <h6 class="mb-0">Dapur</h6>
+                    <h6 class="mb-0">Elektronik</h6>
+                    <h6 class="mb-0">Fashion Anak & Bayi</h6>
+                    <h6 class="mb-0">Fashion Muslim</h6>
+                    <h6 class="mb-0">Fashion Pria</h6>
+                    <h6 class="mb-0">Fashion Wanita</h6>
+                    <h6 class="mb-0">Film & Musik</h6>
+                    <h6 class="mb-0">Gaming</h6>
+                    <h6 class="mb-0">HP & Tablet</h6>
+                    <h6 class="mb-0">Ibu & Bayi</h6>
+                    <h6 class="mb-0">Kamera</h6>
+                    <h6 class="mb-0">Kecantikan</h6>
+                    <h6 class="mb-0">Kesehatan</h6>
+                    <h6 class="mb-0">Komputer & Laptop</h6>
+                    <h6 class="mb-0">Logam Mulia</h6>
+                    <h6 class="mb-0">Mainan & Hobi</h6>
+                    <h6 class="mb-0">Makanan & Minuman</h6>
+                    <h6 class="mb-0">Kesehatan</h6>
+                    <h6 class="mb-0">Kesehatan</h6>
+                    <h6 class="mb-0">Kesehatan</h6>
+                    <h6 class="mb-0">Kesehatan</h6>
+                </div>
+            </div>
+            <div class="col-10">
+                <div class="head-left">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal pencarian: ketika kolom pencarian di klik, ini muncul-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-content-head">
+                <div class="d-flex justify-content-between">
+                    <span class="font-weight-bold title">Pencarian Populer</span>
+                </div>
+                <span class="ml-2 mt-2" style="font-size: 14px;">Headset JBL</span>
+                <span class="ml-2 mt-2" style="font-size: 14px;">Hiasan Natal</span>
+                <span class="ml-2 mt-2" style="font-size: 14px;">Gaming Voucher</span>
+                <span class="font-weight-bold mt-2">Kategori Pilihan</span>
+                <div class="d-flex flex-wrap">
+                    <button class="btn mr-2">Fashion Pria</button>
+                    <button class="btn mr-2">Elektronik</button>
+                    <button class="btn mr-2">Alat Kesehatan</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="assets/js/app.js"></script>
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/n  pm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
