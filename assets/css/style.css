@@ -158,6 +158,9 @@
     border: 1px solid #03ac0e;
 }
 
+
+/* section under-search */
+
 .text-under-search {
     margin-left: 17%;
 }
@@ -167,6 +170,9 @@
     cursor: pointer;
 }
 
+
+/*Section cursor di keranjang cart, ini muncul*/
+
 .menu-bar {
     display: flex;
     position: absolute;
@@ -174,4 +180,35 @@
     top: 91;
     background-color: #ffffff;
     -webkit-box-shadow: 0px -1px 9px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px -1px 9px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px -1px 9px 0px rgba(0, 0, 0, 0.1);
+    padding: 10px 30px;
+    border-radius: 12px;
+    visibility: hidden;
+}
+
+.keranjangBelanja {
+    visibility: visible;
+}
+
+.menu-bar h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu-bar p {
+    font-size: 14px;
+    color: #31353bad;
+}
+
+.menu-bar .btn {
+    color: #ffff;
+    font-size: 14px;
+    font-weight: normal;
+    width: 100%
+}
+
+.menu-bar img {
+    width: 150px;
+    height: 150px;
 }
