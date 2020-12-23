@@ -561,12 +561,42 @@
             
             .btn-more {
                 color: #03ac0e;
-                border: 1px solid #03ac0e;
+                border: 0.5px solid #03ac0e;
                 padding: 10px 70px;
                 font-size: 25px;
                 font-weight: bold;
-                border-style: none;
-                background-color: white;
-                outline-style: none;
+                background-color: transparent;
                 border-radius: 8px;
+            }
+            /* Style Kategori Footer */
+            
+            .kategory-foot {
+                position: relative;
+                padding: 8px 32px;
+                top: 190px
+            }
+            
+            .kategory-foot img {
+                width: 30px;
+            }
+            
+            .kategory-foot h4 {
+                font-size: 13px;
+            }
+            /* style Kategori punya toko */
+            
+            .category-punyatoko {
+                position: relative;
+                padding: 8px 32px;
+                top: 190px
+            }
+            
+            .category-punyatoko img {
+                width: 40%;
+            }
+            
+            .kategory-foot3 {
+                position: relative;
+                padding: 8px 32px;
+                top: 160px;
             }
