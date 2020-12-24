@@ -2,7 +2,7 @@
             
             .body {
                 /* height: 100vh; */
-                overflow: hidden;
+                overflow-x: hidden;
             }
             
             .header {
@@ -598,5 +598,5 @@
             .kategory-foot3 {
                 position: relative;
                 padding: 8px 32px;
-                top: 160px;
+                top: 190px;
             }
